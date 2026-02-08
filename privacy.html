@@ -1,43 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - My Mic Pro</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 40px; max-width: 800px; margin: auto; background-color: #f4f4f4; color: #333; }
-        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #121212; }
-        h2 { color: #2c3e50; margin-top: 30px; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #e0e0e0; background-color: #121212; padding: 20px; max-width: 900px; margin: auto; }
+        .container { background: #1e1e1e; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.5); border: 1px solid #333; }
+        h1 { color: #ffffff; border-bottom: 2px solid #42A5F5; padding-bottom: 10px; margin-top: 0; }
+        h2 { color: #42A5F5; margin-top: 30px; font-size: 1.4rem; }
+        p, li { margin-bottom: 15px; color: #b0b0b0; }
+        ul { padding-left: 20px; }
+        strong { color: #ffffff; }
+        .last-updated { font-style: italic; color: #888; margin-bottom: 30px; display: block; }
+        a { color: #42A5F5; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        hr { border: 0; border-top: 1px solid #333; margin: 30px 0; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated: October 2023</strong></p>
+        <h1>Privacy Policy for My Mic Pro</h1>
+        <span class="last-updated">Last Updated: December 30, 2025</span>
+
+        <p>My Mic Pro ("the App") is a real-time audio utility provided by <strong>The My Mic Pro Team</strong>. We are committed to protecting the privacy of our users. This Privacy Policy describes how we handle information, the permissions we require, and our use of third-party advertising services.</p>
+
+        <hr>
+
+        <h2>1. Core Functionality & Microphone Privacy</h2>
+        <p>Our primary service is to provide a live megaphone experience. We operate under a strict <strong>No Data Collection</strong> policy for our core features.</p>
+        <ul>
+            <li><strong>Microphone (RECORD_AUDIO):</strong> This permission is used solely to capture audio for real-time playback to connected speakers.</li>
+            <li><strong>Ephemeral Processing:</strong> All audio captured by the microphone is processed exclusively in the device's volatile memory (RAM).</li>
+            <li><strong>No Recording or Storage:</strong> Voice data is <strong>NEVER</strong> recorded, saved to the device's permanent storage, or transmitted to any external servers.</li>
+        </ul>
+
+        <h2>2. Advertising & Third-Party Services</h2>
+        <p>To keep this App free to use, we display advertisements provided by Google AdMob. These third-party services may collect data to serve relevant ads to you.</p>
+        <ul>
+            <li><strong>Data Collected by Third Parties:</strong> Google AdMob may collect information such as your IP address, device identifiers (advertising ID), and general app usage statistics.</li>
+            <li><strong>User Consent (GDPR/CCPA):</strong> We implement the Google User Messaging Platform (UMP) to request consent from users in regulated regions. You can manage your preferences at any time within the App settings.</li>
+            <li><strong>Policy Links:</strong> For more details, please visit <a href="https://policies.google.com/privacy">Google’s Privacy & Terms</a>.</li>
+        </ul>
+
+        <h2>3. Required Device Permissions</h2>
+        <p>To function correctly, the App requires the following permissions:</p>
+        <ul>
+            <li><strong>BLUETOOTH_CONNECT:</strong> Required to discover and route audio output to connected Bluetooth speakers.</li>
+            <li><strong>FOREGROUND_SERVICE_MICROPHONE:</strong> Required to maintain the audio stream when the screen is locked.</li>
+            <li><strong>WAKE_LOCK:</strong> Prevents the CPU from entering sleep mode during an active broadcast session.</li>
+            <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Required to load advertisements and the user consent form.</li>
+        </ul>
+
+        <h2>4. Data Safety Summary</h2>
+        <ul>
+            <li><strong>Personal Information:</strong> We do not collect or request names, email addresses, or phone numbers.</li>
+            <li><strong>No Data Sharing:</strong> We do not sell, trade, or share user data with any parties other than the advertising SDK provided by Google.</li>
+            <li><strong>Encryption:</strong> Any data handled by the third-party advertising SDK is encrypted in transit by Google’s secure protocols.</li>
+        </ul>
+
+        <h2>5. Children’s Privacy</h2>
+        <p>The App is not intended for use by children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+        <h2>6. Contact Information</h2>
+        <p>If you have any questions or suggestions regarding this Privacy Policy, please contact us at:</p>
+        <p>
+            <strong>Developer:</strong> The My Mic Pro Team<br>
+            <strong>Email:</strong> <a href="mailto:hk.githubdevz@gmail.com">hk.githubdevz@gmail.com</a>
+        </p>
         
-        <p>HK Apps ("we," "us," or "our") operates the <strong>My Mic Pro</strong> mobile application. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App.</p>
-
-        <h2>1. Audio Data (Microphone)</h2>
-        <p>My Mic Pro requires access to your device's microphone to function as a real-time megaphone. 
-        <strong>We do not record, store, or transmit your audio data to any external servers.</strong> 
-        All audio processing happens locally and in real-time on your device.</p>
-
-        <h2>2. Data Collection & Third-Party Services</h2>
-        <p>We do not collect any personal information directly. However, the app uses third-party services that may collect information used to identify you:</p>
-        <ul>
-            <li><strong>Google AdMob:</strong> Used to show advertisements. AdMob may collect device identifiers to personalize ads.</li>
-            <li><strong>Google Play Billing:</strong> Used to handle voluntary tips. Transaction data is managed securely by Google.</li>
-        </ul>
-
-        <h2>3. Permissions</h2>
-        <p>The app requests the following permissions for core functionality:</p>
-        <ul>
-            <li><strong>Record Audio:</strong> To capture your voice for the megaphone feature.</li>
-            <li><strong>Bluetooth:</strong> To stream audio to your wireless speakers.</li>
-            <li><strong>Foreground Service:</strong> To keep the audio active when the screen is locked.</li>
-        </ul>
-
-        <h2>4. Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us via the support email provided in the Google Play Store listing.</p>
+        <hr>
+        <p style="text-align: center; font-size: 0.8rem;">
+            <a href="index.html">Back to Home</a>
+        </p>
     </div>
 </body>
 </html>
